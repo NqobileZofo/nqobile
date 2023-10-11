@@ -13,7 +13,7 @@ sudo mkdir /var/www/html/labs
 #Step 4: Changing ownership of labs to the current User
 sudo chown zofo&karabo:root /var/wwww/html/labs
 
-#Step 5: Creating a symbolic link (html) under the home directory of the current user, and point it to labs
+#Step 5: Creating a symbolic link (html) under the home directory
 ln -s /var/www/html/labs html
 
 #Step 6: Creating an Index.html file in the directory labs
