@@ -33,4 +33,5 @@ echo "<html>
 </body>
 </html>" | sudo tee /var/www/html/labs/index.html
 
+echo "Setup complete! Access the webpage by visiting http://your-vm-ip-address"
 
